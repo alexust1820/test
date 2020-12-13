@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anime test</title>
+	<meta charset="utf-8">
+	<meta name="og:title" content="Аниме тест">
+	<meta name="og:description" content="Как хорошо ты знаешь аниме?">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/question.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/hero-gif.css">
+	<script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+</head>
+<body>
+<div class="sakura">
+	<img class="gif" src="./assets/img/CasualWalk.gif">
+	<div class="container">
+		
+		<div class="content" id="js-content">
+			<h1 class="h1" id="js-title">Хочешь пройти тест на знание аниме вселенной? Тогда нажимай кнопку <span class="title__span">"Start"</span></h1>
+			<button class="btn -start" id="js-start" onclick="start()">Start</button>
+			<div class="question" id="js-question">
+				<div class="question__header">
+					<h2 class="question__text" id="js-questionText">
+					</h2>
+					<div class="question__count">
+						<span class="question__number" id="js-questionNumber"></span>/<span id="js-totalQuestionCount"></span>
+					</div>
+				</div>
+				<ul class="question__anwsers" id="js-questionAnswers">
+					<li>
+						<button class="question__anwser" id="js-answer1"></button>
+					</li>
+					<li>
+						<button class="question__anwser" id="js-answer2"></button>
+					</li>
+						<li>
+						<button class="question__anwser" id="js-answer3"></button>
+					</li>
+						<li>
+						<button class="question__anwser" id="js-answer4"></button>
+					</li>
+				</ul>
+			</div>
+			</div>
+
+			<div class="result -hidden" id="js-result">
+                <h2 class="result__text" id="js-resultTitle"></h2>
+                <img src="" id="js-resultImage" class="result__image">
+
+                <p class="result__description" id="js-resultDescription"></p>
+                <button class="result__restart" onclick="restartTest()">Пройти заново</button>
+                <div class="div" id="js-resultShare"></div>
+                <!-- <script type="text/javascript">document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));</script> -->
+            </div>
+		</div>
+	</div>
+</div>
+	<img class="gena" src="https://thumbs.gfycat.com/DesertedWelloffGallowaycow-size_restricted.gif">
+	<script type="text/javascript" src="./assets/scripts/questions.js"></script>
+	<script type="text/javascript" src="./assets/scripts/resultData.js"></script>
+	<script type="text/javascript" src="./assets/scripts/main.js"></script>
+</body>
+</html>
+
+
+	<!-- <h3 class="h3">Это аниме тест, пройди его. Быстро! я жду... ЖИВО!!!</h3>
+	<button class="btn" id="js-btn">Start</button> -->

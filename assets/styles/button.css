@@ -1,0 +1,44 @@
+.button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: var(--c-grey-light);
+    color: var(--c-text);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    transition-duration: 2.5s;
+    width: 200px;
+    height: 70px;
+    margin: 0 auto;
+    border: none;
+}
+
+.btn:hover {
+    transform: rotate(3600deg);
+    transition-duration: 2.5s;
+    background-color: black;
+    color: white;
+}
+
+.button.-success {
+    background-color: var(--c-success);
+    color: var(--c-white);
+}
+
+.button.-success:hover {
+    background-color: var(--c-success-hover);
+}
+
+.button.-restart {
+    width: 170px;
+    height: 70px;
+}
+
+.btn.-start {
+    font-size: 24px;
+}

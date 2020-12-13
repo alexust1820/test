@@ -1,0 +1,143 @@
+* {
+    cursor: url(https://pngimg.com/uploads/cursor/cursor_PNG95.png);
+}
+
+@font-face {
+    font-family: Hell;
+    src: url(./fonts/19702.otf);
+   }
+
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    font-family: "Helvetica";
+    padding: none;
+    font-size: 45px;
+}
+
+button {
+    font-family: 'Hell';
+    font-size: 45px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 52px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+b {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+    background-image: url('https://image.freepik.com/free-vector/_52756-116.jpg');
+    background-repeat: repeat;
+    background-size: 10%;
+}
+
+.title__span {
+    transition-duration: .2s;
+}
+
+.title__span:hover {
+    transition-duration: .2s;
+    color: var(--c-black);
+    background-color: var(--c-white);
+}
+
+.dancer {
+    width: 70px;
+    position: absolute;
+    top: 15%;
+}
+
+.sakura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://i.gifer.com/origin/10/103c30d1f212356e3b4601589fd58e2a_w200.gif');
+}
+
+.gena {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.title__span {
+    background-color: var(--c-black);
+    color: var(--c-white);
+}
+
+.result__image {
+    width: 500px;
+}
+
+.result {
+    display: block;
+}
+
+.h1 {
+    background-color: var(--c-white), opacity: 50%;
+}
+
+.result__text, .result__description, .question__text, .question__count {
+    display: inline-block;
+    background-color: var(--c-white);
+    margin-bottom: 10px;
+}
+
+.result.-hidden {
+    display: none;
+}
+
+.question {
+    display: block;
+}
+
+.question.-hidden {
+    display: none;
+}
+
+@media screen and (max-width: 525px) {
+    .gena {
+        width: 100px;
+        top: 0px;
+    }
+
+    .result__image {
+        width: calc(100% - 1px);
+    }
+
+    .result__text, .result__description, .question__text, .question__count {
+        width: cacl(100% - 1px);
+    }
+}
+
+
