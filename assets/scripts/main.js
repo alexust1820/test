@@ -63,7 +63,7 @@ function showTestResult() {
 
 	document.getElementById('js-resultShare').innerHTML = VK.Share.button(
             {
-            	url: 'https://google.com',
+            	url: 'https://alexust1820.github.io/test/',
             	title: 'Офигеть! Да я же' + resultData[resultKey].title + '. Пройди и узнай кто ты',
             	image: resultData[resultKey].images,
             	noparse: true,
