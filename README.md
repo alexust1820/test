@@ -1,1 +1,1 @@
-#[Test](https://alexust1820.github.io/test/);
+[Test](https://alexust1820.github.io/test/);
